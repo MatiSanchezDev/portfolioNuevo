@@ -15,7 +15,7 @@ export const SkillsAndTools = ({ skillsAndTools }) => {
             <SvgArrow />
           </span>
           <div className="w-1/3">
-            <img src={`../../../public/${skill.img}`} alt={skill.title} />
+            <img src={`${skill.img}`} alt={skill.title} />
           </div>
           <div className="w-2/3 sm:px-3">
             <h3 className="pt-4 sm:pt-6  sm:text-md">{skill.title}</h3>

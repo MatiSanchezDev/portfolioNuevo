@@ -1,4 +1,4 @@
-import { Navbar, SobreMi, Projectos } from "./portfolio/components/";
+import { Navbar, SobreMi, Projectos, Footer } from "./portfolio/components/";
 
 export const App = () => {
   return (
@@ -8,6 +8,7 @@ export const App = () => {
         <SobreMi />
         <hr className="my-6" />
         <Projectos />
+        <Footer />
       </div>
     </main>
   );
