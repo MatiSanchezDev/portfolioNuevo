@@ -27,8 +27,8 @@ export const Projectos = () => {
 
   return (
     <section className="w-full my-4 animate-fade-left animate-ease-in ">
-      <h3 className="text-center text-lg text-cDark dark:text-cWhite">
-        Skills/<span className="text-cGreen">Tools</span>
+      <h3 className="text-center text-2xl font-bold text-cDark dark:text-cWhite">
+        Skills /<span className="text-cGreen"> Tools</span>
       </h3>
 
       <ButtonsList categories={categories} filterCategory={filterCategory} />

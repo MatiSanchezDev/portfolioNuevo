@@ -12,17 +12,20 @@ export const SobreMi = () => {
             src={imgPerfil}
             alt="Foto perfil"
             loading="lazy"
+            title="Perfil"
           />
         </div>
       </div>
       <div className="w-auto md:w-2/3 pt-4 animate-fade-left animate-ease-in-out">
         <div className="text-center">
-          <h1 className="text-2xl sm:text-3xl font-bold">Matias N. Sanchez</h1>
-          <h2 className="text-sm sm:text-md pl-2 text-cGreen">
+          <h1 className="text-2xl sm:text-4xl font-bold" title="MattDev">
+            Matias N. Sanchez
+          </h1>
+          <h2 className="text-sm sm:text-lg pl-2 font-semibold text-cGreen">
             - Frontend Developer -
           </h2>
         </div>
-        <p className="text-center pl-2 pt-2 text-[14px]">
+        <p className="text-center pl-2 pt-2 text-[14px] sm:text-lg">
           Soy un apasionado del desarrollo web y del diseño UI/UX.
         </p>
         <div className="flex justify-center items-center pt-3 gap-4">
@@ -32,6 +35,7 @@ export const SobreMi = () => {
             rel="noopener noreferrer"
             download="CV-MatiasNahuelSanchez"
             className="hover:text-cGreen"
+            title="CV"
           >
             <SvgCV />
           </a>
@@ -40,6 +44,7 @@ export const SobreMi = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cGreen"
+            title="LinkedIn"
           >
             <SvgLinkedin />
           </a>
@@ -48,6 +53,7 @@ export const SobreMi = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cGreen"
+            title="Github"
           >
             <SvgGithub />
           </a>

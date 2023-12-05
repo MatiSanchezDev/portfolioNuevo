@@ -10,5 +10,5 @@ export const pickButton = (category) => {
   if (category === "redux toolkit") return <SvgRedux />;
   if (category === "tailwind") return <SvgTailwind />;
   if (category === "framer motion") return <SvgFramer />;
-  return <span className="text-sm">ALL</span>;
+  return <span className="text-sm font-bold">ALL</span>;
 };
